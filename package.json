@@ -1,0 +1,14 @@
+{
+  "name": "ttf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TTF (Time, Travel, Food) — find food near you anywhere, with opening hours in each venue's own local time",
+  "scripts": {
+    "test": "node --test test/time.test.js test/places.test.js test/app.test.js test/contrast.test.js",
+    "start": "node server.js"
+  },
+  "keywords": ["travel", "food", "timezone", "google-maps", "places"],
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "devDependencies": { "jsdom": "^26.0.0" }
+}
